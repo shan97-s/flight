@@ -188,14 +188,14 @@ function App() {
           <div id='a' style={windowSize.width<435 ? {flexDirection:'row'}:{flexDirection:'column'}}>
           <div id='b' style={windowSize.width<435 ? {flexDirection:'column'}:{flexDirection:'row'}}>
 
-            <div id ='button' style={windowSize.width>435 ? {paddingLeft:'2%'}:{}}><button onClick={getData} > <div id='btnm'>Get Data</div></button> <br/><br/></div>
-            <div id='item'>{flights ? <div>{JSON.stringify(flights)}</div> : <div id='content'>Click the button to get nearby flights </div>}</div>
+            <div id ='button' style={windowSize.width>435 ? {padding:'0 0 0 0',width:'45%',margin: '0.2% 0.2% 0 0'}:{justifyContent: 'center'}}><button onClick={getData} > <div id='btnm'>Get Data</div></button> </div>
+            <div id='item'>{flights ? <div>{JSON.stringify(flights)}</div> : <div id='content'>Click the button to get nearby flights </div>}</div><br/><br/>
 
-            <div id ='button' style={windowSize.width>435 ? {paddingLeft:'2%'}:{}}><button onClick={getData}><div id='btnm'>Get Data</div></button> <br/><br/></div>
-            <div id='item'>{flights ? <div>{JSON.stringify(flights)}</div> : <div id='content'>Click the button to get nearby flights </div>}</div>
+            <div id ='button' style={windowSize.width>435 ? {paddingLeft:'0%',width:'45%',margin: '0.2% 0.2% 0 0'}:{justifyContent: 'center'}}><button onClick={getData}><div id='btnm'>Get Data</div></button> </div>
+            <div id='item'>{flights ? <div>{JSON.stringify(flights)}</div> : <div id='content'>Click the button to get nearby flights </div>}</div><br/><br/>
             
-            <div id ='button' style={windowSize.width>435 ? {paddingLeft:'2%'}:{}}><button onClick={getData}><div id='btnm'>Get Data</div></button> <br/><br/></div>
-            <div id='item'>{flights ? <div>{JSON.stringify(flights)}</div> : <div id='content'>Click the button to get nearby flights </div>}</div>
+            <div id ='button' style={windowSize.width>435 ? {paddingLeft:'0%',width:'45%',margin: '0.2% 0.2% 0 0'}:{justifyContent: 'center'}}><button onClick={getData}><div id='btnm'>Get Data</div></button> </div>
+            <div id='item'>{flights ? <div>{JSON.stringify(flights)}</div> : <div id='content'>Click the button to get nearby flights </div>}</div><br/><br/>
       
 
 

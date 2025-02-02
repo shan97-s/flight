@@ -108,16 +108,21 @@ html,body{
 }
 #button{
   display: inline-flex;
-  padding:0.5%;
- 
-  justify-content: center;
-  height: 5%;
+  flex-direction: row-reverse;
+  /* padding:0.5%; */
+  /* margin: 0.2% 0.2% 0 0; */
+  height: fit-content;
+  /* justify-content: center; */
+  /* height: 5%; */
   /* border:2px orange solid; */
-  align-content: center;
+  
 }
 button{
- margin:2;
- display: inline-flex;
+ /* background-color: #61dafb; */
+ width: 100%;
+ height: fit-content;
+ width: fit-content;
+ 
 
 }
 #btnm{
